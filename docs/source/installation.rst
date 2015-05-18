@@ -11,9 +11,13 @@ You can quickly install MozDef with an automated build generation using `docker`
 Dockerfile
 ***********
 
-After `installing docker`_, use this to build a new image::
+After `installing docker`_, get a copy of MozDef using
 
-  cd docker && sudo make build
+  git clone https://github.com/jeffbryner/MozDef
+
+use this to build a new image::
+
+  cd MozDef/docker && sudo make build
 
 Running the container::
 
